@@ -15,3 +15,16 @@ Start Splunk (splunk.exe start)
 Login to http://localhost:8000 as admin
 
 Remove/rename user-seed.conf after successful login
+
+Notes / gotchas
+Save file as All Files (.) to avoid user-seed.conf.txt
+
+Ensure correct directory: etc\system\local\
+
+Password complexity enforced in newer Splunk versions
+
+Validation
+Successful login to Splunk Web
+
+splunk.exe status reports splunkd running
+---
